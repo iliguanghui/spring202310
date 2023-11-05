@@ -20,6 +20,7 @@
         <mybatis-spring.version>2.1.1</mybatis-spring.version>
         <c3p0.version>0.9.5.5</c3p0.version>
         <javax.annotation-api.version>1.3.2</javax.annotation-api.version>
+        <aspectjweaver.version>1.9.20</aspectjweaver.version>
     </properties>
 
     <modules>
@@ -38,6 +39,7 @@
         <module>spring_14_annotation_di</module>
         <module>spring_15_third_bean_manager</module>
         <module>spring_16_spring_mybatis</module>
+        <module>spring_17_aop_quickstart</module>
     </modules>
 
     <dependencyManagement>
@@ -94,6 +96,11 @@
                 <groupId>javax.annotation</groupId>
                 <artifactId>javax.annotation-api</artifactId>
                 <version>${javax.annotation-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>${aspectjweaver.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
