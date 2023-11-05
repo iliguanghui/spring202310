@@ -40,6 +40,7 @@
         <module>spring_15_third_bean_manager</module>
         <module>spring_16_spring_mybatis</module>
         <module>spring_17_aop_quickstart</module>
+        <module>spring_20_aop_advice_type</module>
     </modules>
 
     <dependencyManagement>
