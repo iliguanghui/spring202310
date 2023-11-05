@@ -6,6 +6,5 @@ import org.springframework.context.annotation.*;
 @ComponentScan("com.lgypro")
 @PropertySource("classpath:jdbc.properties")
 @Import(MybatisConfig.class)
-@EnableAspectJAutoProxy
 public class SpringConfig {
 }

@@ -42,6 +42,7 @@
         <module>spring_17_aop_quickstart</module>
         <module>spring_20_aop_advice_type</module>
         <module>spring_21_case_run_speed</module>
+        <module>spring_22_aop_advice_data</module>
     </modules>
 
     <dependencyManagement>
